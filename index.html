@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="xel-theme" content="./adwaita.css">
+    <meta name="xel-accent-color" content="blue">
+    <meta name="xel-size" content="medium">
+    <!-- <meta name="xel-iconsets" content="./material.svg"> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./xel.js" type="module"></script>
+</head>
+<body>
+<x-card>
+    <main>
+        <x-label>Right-click to open the context menu.</x-label>
+    </main>
+
+    <x-contextmenu>
+        <x-menu>
+            <x-menuitem>
+                <x-label>Undo</x-label>
+            </x-menuitem>
+
+            <x-menuitem>
+                <x-label>Redo</x-label>
+            </x-menuitem>
+
+            <hr>
+
+            <x-menuitem>
+                <x-label>Cut</x-label>
+            </x-menuitem>
+
+            <x-menuitem>
+                <x-label>Copy</x-label>
+            </x-menuitem>
+
+            <x-menuitem>
+                <x-label>Paste</x-label>
+            </x-menuitem>
+
+            <hr>
+
+            <x-menuitem>
+                <x-label>Refresh</x-label>
+            </x-menuitem>
+        </x-menu>
+    </x-contextmenu>
+</x-card>
+</body>
+</html>
